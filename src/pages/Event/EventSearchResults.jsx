@@ -3,7 +3,6 @@ import styled from 'styled-components';
 import EventSearch from '../../components/Event/EventSearch';
 import { useParams } from 'react-router-dom';
 import { useNavigate, NavLink } from 'react-router-dom';
-import image from "../../pages/channels4_profile.jpg";
 import { motion as m } from "framer-motion";
 
 function EventSearchResults() {
