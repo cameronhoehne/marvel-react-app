@@ -3,6 +3,7 @@ import styled from 'styled-components';
 import GetRandoms from '../components/GetRandoms';
 import Categories from '../components/Categories';
 import CharacSearch from '../components/Character/CharacSearch';
+import image from "../pages/marvel-main.webp"
 import Footer from '../components/Footer';
 import { motion as m } from "framer-motion";
 
@@ -14,7 +15,7 @@ function Home() {
     animate={{x: "0%"}}
     transition={{duration: .5}}
     exit={{x: "0%"}}
-
+    style={{backgroundImage: `linear-gradient(rgba(0,0,0,.3),rgba(0,0,0,.3)), url(${image})`}}
     
     >
         <Header>
