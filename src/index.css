@@ -27,19 +27,16 @@ code {
 }
 
 .cover-image-main {
-  background-image: linear-gradient(rgba(0,0,0,.3),rgba(0,0,0,.3)), url("./pages/marvel-main.webp");
   background-color: white;
   background-repeat: no-repeat;
   background-size: cover;
 }
 .cover-image-comics {
-background-image: linear-gradient(rgba(0,0,0,.3),rgba(0,0,0,.3)), url("./pages/Comics/marvel-comic-book-background.webp");
 background-color: white;
 background-repeat: no-repeat;
 background-size: cover;
 }
 .cover-image-events {
-background-image: linear-gradient(rgba(0,0,0,.4),rgba(0,0,0,.4)), url("./pages/Event/marvel-events.webp");
 background-color: white;
 background-repeat: no-repeat;
 background-size: cover;
@@ -50,14 +47,12 @@ background-repeat: no-repeat;
 background-size: cover;
 }
 .cover-image-creators {
-background-image: linear-gradient(rgba(0,0,0,.4),rgba(0,0,0,.4)), url("./pages/Creator/marvel-creators.webp");
 background-color: white;
 background-repeat: no-repeat;
 background-size: cover;
 }
 
 .cover-image-no-results {
-background-image: linear-gradient(rgba(0,0,0,.3),rgba(0,0,0,.3)), url("./pages/marvel-no-results.webp");
 background-color: white;
 background-repeat: no-repeat;
 background-size: cover;
