@@ -45,7 +45,6 @@ background-repeat: no-repeat;
 background-size: cover;
 }
 .cover-image-characters {
-background-image: linear-gradient(rgba(0,0,0,.4),rgba(0,0,0,.4)), url("./pages/Character/marvel-character.webp");
 background-color: white;
 background-repeat: no-repeat;
 background-size: cover;
