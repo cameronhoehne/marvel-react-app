@@ -257,7 +257,7 @@ const Creators = () => {
         animate={{x: "0%"}}
         transition={{duration: .5}}
         exit={{x: "0%"}}
-        style={{backgroundImage: `linear-gradient(rgba(0,0,0,.4),rgba(0,0,0,.4)), url(${eventImage});`}}
+        style={{backgroundImage: `linear-gradient(rgba(0,0,0,.4),rgba(0,0,0,.4)), url(${eventImage})`}}
         >
         <m.h1
         initial={{y: "100%"}} 
