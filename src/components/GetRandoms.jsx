@@ -1,6 +1,6 @@
 import {React, useState, useEffect} from 'react'
 import marvel from 'marvel-characters';
-import image from "../pages/channels4_profile.jpg";
+import image from "../pages/channels4_profile.webp";
 import styled from 'styled-components';
 import {NavLink, useNavigate} from "react-router-dom"
 import { motion as m } from "framer-motion";
