@@ -2,6 +2,7 @@ import React from 'react'
 import {useNavigate, useLocation} from "react-router-dom"
 import styled from 'styled-components';
 import {motion as m} from "framer-motion";
+import image from "../pages/marvel-no-results.webp";
 
 function NoResults() {
 
@@ -23,7 +24,7 @@ const {location} = state;
     animate={{x: "0%"}}
     transition={{duration: .5}}
     exit={{x: "100%"}}
-    
+    style={{backgroundImage: `linear-gradient(rgba(0,0,0,.3),rgba(0,0,0,.3)), url(${image})`}}
     >
         <h1>NO RESULTS!</h1>
         <p>Use the button below to go back and make another search</p>
