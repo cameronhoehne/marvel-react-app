@@ -2,7 +2,7 @@ import React from 'react'
 import styled from 'styled-components';
 import {useNavigate} from "react-router-dom"
 import CharacSearch from '../../components/Character/CharacSearch';
-import charImage from "../Character/marvel-character.jpeg"
+import charImage from "../Character/marvel-character.webp"
 import { motion as m } from "framer-motion";
 
 function CharHome() {
