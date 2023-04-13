@@ -3,6 +3,7 @@ import EventSearch from '../../components/Event/EventSearch'
 import styled from 'styled-components'
 import {useNavigate} from "react-router-dom"
 import { motion as m } from "framer-motion";
+import eventImage from "../Event/marvel-events.webp";
 
 function EventHome() {
 
@@ -20,6 +21,7 @@ const goHome = (e) => {
         animate={{x: "0%"}}
         transition={{duration: .5}}
         exit={{x: "0%"}}
+        style={{backgroundImage: `linear-gradient(rgba(0,0,0,.4),rgba(0,0,0,.4)), url(${eventImage});`}}
     >
         <m.h1
         initial={{y: "100%"}} 
