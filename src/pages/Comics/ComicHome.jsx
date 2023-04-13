@@ -3,6 +3,7 @@ import ComicSearch from '../../components/Comics/ComicSearch';
 import styled from 'styled-components';
 import {useNavigate} from "react-router-dom";
 import { motion as m } from "framer-motion";
+import comicImage from "../Comics/marvel-comic-book-background.webp";
 
 function ComicHome() {
 const navigate = useNavigate();
@@ -18,6 +19,7 @@ const goHome = (e) => {
         animate={{x: "0%"}}
         transition={{duration: .5}}
         exit={{x: "0%"}}
+        style={{backgroundImage: `linear-gradient(rgba(0,0,0,.3),rgba(0,0,0,.3)), url(${comicImage})`}}
     >
         <m.h1
             initial={{y: "100%"}} 
