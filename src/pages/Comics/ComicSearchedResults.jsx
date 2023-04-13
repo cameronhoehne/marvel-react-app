@@ -25,8 +25,8 @@ function ComicSearchedResults() {
         } else {
             limit = count.current;
         }
-        const pubKey = "ed5ab77a92193e392b2c6d457caebe33";
-        const privKey = "eba5c3e16ba2f578aee42be8c10e8c57";
+        const pubKey = process.env.REACT_APP_PUB_KEY;
+        const privKey = process.env.REACT_APP_PRIV_KEY;
         const ts = 1;
         const url = "https://gateway.marvel.com:443/v1/public/comics"
     try {
