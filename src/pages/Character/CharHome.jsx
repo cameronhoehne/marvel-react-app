@@ -2,6 +2,7 @@ import React from 'react'
 import styled from 'styled-components';
 import {useNavigate} from "react-router-dom"
 import CharacSearch from '../../components/Character/CharacSearch';
+import charImage from "../Character/marvel-character.jpeg"
 import { motion as m } from "framer-motion";
 
 function CharHome() {
@@ -19,6 +20,7 @@ const goHome = (e) => {
         animate={{x: "0%"}}
         transition={{duration: .5}}
         exit={{x: "0%"}}
+        style={{backgroundImage: `linear-gradient(rgba(0,0,0,.4),rgba(0,0,0,.4)), url(${charImage}`}}
         >
             <m.h1
             initial={{y: "100%"}} 
