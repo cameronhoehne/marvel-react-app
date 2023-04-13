@@ -3,6 +3,7 @@ import styled from 'styled-components';
 import CharacSearch from '../../components/Character/CharacSearch';
 import { useParams } from 'react-router-dom';
 import { useNavigate, NavLink } from 'react-router-dom';
+import charImage from "../Character/marvel-character.webp"
 import image from "../../pages/channels4_profile.webp";
 import { motion as m } from "framer-motion";
 
@@ -231,7 +232,7 @@ const Comics = () => {
     animate={{x: "0%"}}
     transition={{duration: .5}}
     exit={{x: "0%"}}
-    style={{backgroundImage: "linear-gradient(rgba(0,0,0,.4),rgba(0,0,0,.4)), url('./pages/Character/marvel-character.jpeg')"}}
+    style={{backgroundImage: `linear-gradient(rgba(0,0,0,.4),rgba(0,0,0,.4)), url(${charImage})`}}
     >
 
             <m.h1
