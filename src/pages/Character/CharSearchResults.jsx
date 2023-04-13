@@ -17,7 +17,7 @@ function CharSearchResults() {
     const navigate = useNavigate();
     let toggle = false;
 
-alert(process.env.PUB_KEY)
+alert(process.env.REACT_APP_PUB_KEY)
     const getInfo = async (input, limit) => {
         setInput(input)
         setLoading(true);
