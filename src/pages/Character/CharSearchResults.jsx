@@ -17,7 +17,6 @@ function CharSearchResults() {
     const navigate = useNavigate();
     let toggle = false;
 
-alert(process.env.REACT_APP_PUB_KEY)
     const getInfo = async (input, limit) => {
         setInput(input)
         setLoading(true);
@@ -26,8 +25,8 @@ alert(process.env.REACT_APP_PUB_KEY)
         } else {
             limit = count.current;
         }
-        const pubKey = process.env.PUB_KEY;
-        const privKey = process.env.PRIV_KEY;
+        const pubKey = process.env.REACT_APP_PUB_KEY;
+        const privKey = process.env.REACT_APP_PRIV_KEY;
         const ts = 1;
         const url = "https://gateway.marvel.com:443/v1/public/characters"
     try {
