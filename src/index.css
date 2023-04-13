@@ -55,12 +55,7 @@ background-color: white;
 background-repeat: no-repeat;
 background-size: cover;
 }
-.cover-image-single {
-background-image: linear-gradient(rgba(0,0,0,.4),rgba(0,0,0,.4)), url("./pages/marvel-single.webp");
-background-color: white;
-background-repeat: no-repeat;
-background-size: cover;
-}
+
 .cover-image-no-results {
 background-image: linear-gradient(rgba(0,0,0,.3),rgba(0,0,0,.3)), url("./pages/marvel-no-results.webp");
 background-color: white;
