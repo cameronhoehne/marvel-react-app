@@ -231,7 +231,7 @@ const Comics = () => {
     animate={{x: "0%"}}
     transition={{duration: .5}}
     exit={{x: "0%"}}
-    style={{backgroundImage: linear-gradient(rgba(0,0,0,.4),rgba(0,0,0,.4)), url("./pages/Character/marvel-character.jpeg")}}
+    style={{backgroundImage: "linear-gradient(rgba(0,0,0,.4),rgba(0,0,0,.4)), url('./pages/Character/marvel-character.jpeg')"}}
     >
 
             <m.h1
