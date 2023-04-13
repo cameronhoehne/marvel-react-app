@@ -3,6 +3,7 @@ import styled from 'styled-components';
 import CreatorSearch from '../../components/Creator/CreatorSearch';
 import { useParams } from 'react-router-dom';
 import { useNavigate, NavLink } from 'react-router-dom';
+import creatorImage from "../Creator/marvel-creators.webp";
 import image from "../../pages/channels4_profile.webp";
 import { motion as m } from "framer-motion";
 
@@ -229,6 +230,7 @@ const Comics = () => {
     animate={{x: "0%"}}
     transition={{duration: .5}}
     exit={{x: "0%"}}
+    style={{backgroundImage: `linear-gradient(rgba(0,0,0,.4),rgba(0,0,0,.4)), url(${creatorImage})`}}
     >
         <m.h1
         initial={{y: "100%"}} 
