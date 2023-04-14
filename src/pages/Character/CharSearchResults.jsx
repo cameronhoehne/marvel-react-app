@@ -334,6 +334,7 @@ justify-content: flex-start;
 align-items: center;
 min-height: 100vh;
 padding: 4rem;
+background-color: black;
     h1 {
         color: white;
         margin: 2rem 0rem 1.6rem 0rem;
