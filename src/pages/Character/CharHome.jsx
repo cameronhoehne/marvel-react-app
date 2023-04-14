@@ -64,6 +64,7 @@ align-items: center;
 height: 100%;
 min-height: 100vh;
 padding: 4rem;
+background-color: black;
 
     h1 {
         color: white;
