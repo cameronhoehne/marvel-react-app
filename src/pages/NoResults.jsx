@@ -28,7 +28,18 @@ const {location} = state;
     >
         <h1>NO RESULTS!</h1>
         <p>Use the button below to go back and make another search</p>
-        <button onClick={goHome}>BACK</button>
+        <m.button onClick={goHome}
+            whileHover={{
+                scale: 1.1,
+                transition: {
+                    duration: .2,
+                    ease: "easeInOut"
+                }
+            }}
+            whileTap={{
+                scale: 1.2
+            }}
+            >HOME</m.button>
     </Container>
   )
 }
